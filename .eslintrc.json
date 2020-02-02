@@ -1,0 +1,32 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "standard"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2020,
+        "sourceType": "script"
+    },
+    "rules": {
+        "eqeqeq": "error",
+        "yoda": "error",
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "newline-before-return": "off",
+        "space-before-function-paren": "off",
+        "semi": "off",
+        "no-extra-semi": "error",
+        "no-var": "error",
+        "prefer-const": "error"
+    }
+}
